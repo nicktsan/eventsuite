@@ -134,7 +134,3 @@ const options = ref({
   capacity: 'Unlimited',
 })
 </script>
-
-<style>
-/* Tailwind handles most styling */
-</style>
