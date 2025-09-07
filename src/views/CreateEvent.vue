@@ -1,22 +1,5 @@
 <template>
   <div class="min-h-screen bg-gray-50 p-6">
-    <!-- Header -->
-    <header class="flex justify-between items-center mb-6">
-      <h1 class="text-xl font-semibold text-gray-800 flex items-center gap-2">
-        <i class="pi pi-calendar text-indigo-600"></i>
-        Event Details
-      </h1>
-      <nav class="flex gap-4 items-center">
-        <a href="#" class="text-gray-600 hover:text-indigo-600">Dashboard</a>
-        <a href="#" class="text-gray-600 hover:text-indigo-600">Create Event</a>
-        <a href="#" class="text-gray-600 hover:text-indigo-600">Account</a>
-        <Button
-          label="New Event"
-          class="bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg px-4 py-2"
-        />
-      </nav>
-    </header>
-
     <!-- Layout -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <!-- Event Details Form -->
