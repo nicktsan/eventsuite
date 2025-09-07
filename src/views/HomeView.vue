@@ -1,34 +1,10 @@
 <!-- LandingPage.vue -->
 <template>
   <div class="min-h-screen bg-white text-gray-800">
-    <!-- Header -->
-    <header class="sticky top-0 z-20 bg-white/80 backdrop-blur border-b">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <div class="flex items-center gap-2">
-          <span
-            class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-indigo-600 text-white font-bold"
-            >E</span
-          >
-          <span class="font-semibold">Everywhere Events</span>
-        </div>
-        <nav class="hidden sm:flex items-center gap-6 text-sm">
-          <a href="#how" class="hover:text-indigo-600">How it works</a>
-          <a href="#benefits" class="hover:text-indigo-600">Benefits</a>
-          <a href="#integrations" class="hover:text-indigo-600">Integrations</a>
-        </nav>
-        <Button
-          label="Join the Waitlist"
-          @click="scrollTo('cta')"
-          icon="pi pi-arrow-right"
-          class="p-button-rounded p-button-sm"
-        />
-      </div>
-    </header>
-
     <!-- Hero -->
-    <section class="relative">
+    <section class="relative pt-28 md:pt-36">
       <div
-        class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center"
+        class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 md:py-20 grid md:grid-cols-2 gap-10 items-center"
       >
         <div>
           <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">
@@ -122,6 +98,19 @@
             <template #title><i class="pi pi-list text-indigo-600"></i> Stay organized</template>
             <template #content>Manage everything from a single dashboard.</template>
           </Card>
+        </div>
+      </div>
+    </section>
+
+    <!-- Integrations -->
+    <section id="integrations" class="bg-gray-50 py-16 md:py-20">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold tracking-tight">Works with the platforms you already use</h2>
+        <div class="mt-10 flex justify-center gap-8 flex-wrap">
+          <Chip label="Eventbrite" icon="pi pi-calendar" />
+          <Chip label="Meetup" icon="pi pi-users" />
+          <Chip label="Facebook" icon="pi pi-facebook" />
+          <Chip label="LinkedIn Events" icon="pi pi-briefcase" />
         </div>
       </div>
     </section>
