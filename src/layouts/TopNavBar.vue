@@ -1,7 +1,7 @@
 <template>
   <header class="flex p-2 items-center">
     <div>
-      <a href="/" class="text-gray-600 hover:text-indigo-600">Home</a>
+      <a href="/" class="text-gray-600 hover:text-indigo-600 pl-2">Home</a>
     </div>
     <nav class="ml-auto flex gap-4 items-center p-2">
       <a href="#" class="text-gray-600 hover:text-indigo-600">Dashboard</a>

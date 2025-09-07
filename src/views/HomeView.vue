@@ -110,7 +110,6 @@
           <Chip label="Eventbrite" icon="pi pi-calendar" />
           <Chip label="Meetup" icon="pi pi-users" />
           <Chip label="Facebook" icon="pi pi-facebook" />
-          <Chip label="LinkedIn Events" icon="pi pi-briefcase" />
         </div>
       </div>
     </section>
